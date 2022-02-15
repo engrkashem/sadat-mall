@@ -6,13 +6,34 @@
 .color-BG-nav{
     background-color: rgb(209, 4, 45);
 }
-.mega-menu-container>li{
+li{
     list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mega-menu-container>li, .mega-menu>li{
+    /* list-style: none; */
     border: 1px solid;
     border-style: groove;
     padding: 5px 10px;
+    position: relative;
 }
-.mega-menu-container>li>a{
-    text-decoration: none;
-    color: black;
+.mega-menu{
+    position: relative;
+    left: 250px;
+    top:0px;
+}
+.mega-menu>li{
+    display: none;
+}
+.mega-menu-container>li:hover>.mega-menu>li{
+    display: block;
+}
+.carousel-item>img{
+    height: 350px;
+}
+section{
+    margin-top: 100px;
 }
