@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.color-BG-nav{
+    background-color: rgb(209, 4, 45);
+}
+.mega-menu-container>li{
+    list-style: none;
+    border: 1px solid;
+    border-style: groove;
+    padding: 5px 10px;
+}
+.mega-menu-container>li>a{
+    text-decoration: none;
+    color: black;
+}
